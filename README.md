@@ -65,6 +65,11 @@ This project enhances the security of Internet of Things (IoT) networks by integ
 | GET    | `/consensus`         | Trigger PBFT consensus        |
 | GET    | `/blockchain`        | Retrieve transaction history  |
 
+## Screenshots of the Dashboard
+![image](https://github.com/user-attachments/assets/9687fce8-6ffa-423f-b59b-e17b5e00040f)
+![image](https://github.com/user-attachments/assets/6000c2ce-fef1-49c1-9e75-ece4d15b89e4)
+![image](https://github.com/user-attachments/assets/67202af8-6c37-4111-a8eb-d99da3b42583)
+
 
 ## Future Improvements
 - Integrate AI-based anomaly detection.
