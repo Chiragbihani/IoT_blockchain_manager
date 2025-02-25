@@ -1,0 +1,36 @@
+.block-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: start; /* Space between blocks */
+}
+
+.block {
+    background-color: #f9f9f9; /* Light background for the block */
+    border: 1px solid #ccc; /* Border around the block */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the block */
+    margin: 10px; /* Margin around the block */
+    width: calc(33.33% - 20px); /* Three blocks per row with margin */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-around; /* Space out content */
+}
+
+.block-data {
+    font-size: 1.2em; /* Larger font for block data */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.block-info {
+    font-size: 0.9em; /* Smaller font for additional info */
+    color: #555; /* Darker gray for secondary information */
+}
+
+.no-block{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+}

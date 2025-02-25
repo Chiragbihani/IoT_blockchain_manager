@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #2d3e50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2d3e50;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #6a7681;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4caf50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #ff9800;
+  margin-top: 10px;
+}
+
+li button:hover {
+  background-color: #e68900;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body > div {
+  margin-bottom: 15px;
+}
+
+.card-body .block {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  word-wrap: break-word;
+}
+
+.card-footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.card-footer button {
+  background-color: #2196f3;
+}
+
+.card-footer button:hover {
+  background-color: #1976d2;
+}
+
+input, textarea {
+  font-size: 16px;
+  padding: 10px;
+}
+
+input[type='text'] {
+  width: 100%;
+}
+
+input[type='number'] {
+  width: 100%;
+}

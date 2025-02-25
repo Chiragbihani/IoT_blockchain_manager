@@ -1,0 +1,36 @@
+.block-proposal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-proposal-card {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+select, input {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
